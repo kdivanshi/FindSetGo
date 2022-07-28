@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+    height: 100vh;
+    text-align: center;
+    
+}
+.heading{
+    padding: 70px;
+    font-size: 25px;
+}
+.buttons{
+    padding: 10px;
+}
+.btn{
+    font-size: 20px;
+    width: 250px;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 100px;
+    border: 1px;
+    letter-spacing: 2px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: #D47EA5;
+}
+.btn:hover{
+    color:bisque;
+    background-color: #6E3659;
+}
+.btn:active{
+    transform: scale(0.98);
+}
